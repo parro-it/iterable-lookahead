@@ -1,6 +1,6 @@
 {
   "name": "iterable-lookahead",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Iterable wrapper that add methods to read ahead or behind current item.",
   "repository": "parro-it/iterable-lookahead",
   "license": "MIT",
@@ -9,7 +9,17 @@
     "test": "ava --no-babel && xo",
     "cover-test": "nyc ava --no-babel"
   },
-  "keywords": ["iterable", "generator", "ahead", "behind", "functional", "look-behind", "look-ahead", "lookbehind", "lookahead"],
+  "keywords": [
+    "iterable",
+    "generator",
+    "ahead",
+    "behind",
+    "functional",
+    "look-behind",
+    "look-ahead",
+    "lookbehind",
+    "lookahead"
+  ],
   "engines": {
     "node": ">=4"
   },
