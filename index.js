@@ -39,7 +39,7 @@ function lookahead(iterable, size) {
 			if (idx < 1) {
 				throw new RangeError('Look behind index must be greater than 0');
 			}
-			// console.log({behindCache});
+
 			return behindCache[idx];
 		},
 
@@ -73,12 +73,12 @@ function lookahead(iterable, size) {
 
 lookahead.depth = size => iterable => lookahead(iterable, size);
 
-lookahead.spread = function lookaheadSpread(iterable, size) {
+lookahead.spread = (iterable, size) => {
 	const it = lookahead(iterable, size);
 
 	it._next = it.next;
 	it.next = function () {
-		let item = this._next();
+		const item = this._next();
 		if (!item.done) {
 			item.value = [item.value, it];
 		}
