@@ -24,11 +24,11 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^0.18.2",
     "coveralls": "^2.11.11",
     "is-iterable": "^1.1.0",
-    "nyc": "^7.0.0",
-    "xo": "^0.16.0"
+    "nyc": "^10.2.0",
+    "xo": "^0.18.1"
   },
   "files": [
     "index.js"

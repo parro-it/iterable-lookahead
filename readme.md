@@ -1,5 +1,7 @@
 # iterable-lookahead
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/iterable-lookahead.svg)](https://greenkeeper.io/)
+
 > Iterable wrapper that add methods to read ahead or behind current item.
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/iterable-lookahead.svg)](http://travis-ci.org/parro-it/iterable-lookahead)
