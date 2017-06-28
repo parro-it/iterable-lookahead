@@ -6,8 +6,8 @@
   "license": "MIT",
   "author": "Andrea Parodi <andrea@parro.it>",
   "scripts": {
-    "test": "ava --no-babel && xo",
-    "cover-test": "nyc ava --no-babel"
+    "test": "ava && xo",
+    "cover-test": "nyc ava && xo"
   },
   "keywords": [
     "iterable",
@@ -21,13 +21,13 @@
     "lookahead"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "devDependencies": {
-    "ava": "^0.18.2",
+    "ava": "^0.20.0",
     "coveralls": "^2.11.11",
     "is-iterable": "^1.1.0",
-    "nyc": "^10.2.0",
+    "nyc": "^11.0.3",
     "xo": "^0.18.1"
   },
   "files": [

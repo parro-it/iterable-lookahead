@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import test from 'ava';
 import isIterable from 'is-iterable';
 import iterableLookahead from '.';
