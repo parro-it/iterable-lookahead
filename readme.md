@@ -1,4 +1,4 @@
-# iterable-lookahead
+# iterable-lookahead
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/iterable-lookahead.svg)](https://greenkeeper.io/)
 [![Travis Build Status](https://img.shields.io/travis/parro-it/iterable-lookahead.svg)](http://travis-ci.org/parro-it/iterable-lookahead)
