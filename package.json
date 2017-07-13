@@ -24,7 +24,7 @@
     "node": ">=6"
   },
   "devDependencies": {
-    "ava": "^0.20.0",
+    "ava": "^0.21.0",
     "coveralls": "^2.11.11",
     "is-iterable": "^1.1.0",
     "nyc": "^11.0.3",
