@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "coveralls": "^2.11.11",
+    "coveralls": "^3.0.0",
     "is-iterable": "^1.1.0",
     "nyc": "^11.0.3",
     "xo": "^0.18.1"
